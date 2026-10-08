@@ -1,0 +1,13 @@
+hl.on("hyprland.start", function ()
+        hl.exec_cmd("xwaylandvideobridge")
+        hl.exec_cmd("discord")
+        hl.exec_cmd("mullvad-vpn")
+        hl.exec_cmd("keepassxc")
+        hl.exec_cmd("qbittorrent")
+        hl.exec_cmd("systemctl --user start hyprland-session.target")
+        hl.exec_cmd("kdeconnect-app")
+end)
+
+hl.on("hyprland.shutdown", function ()
+        hl.exec_cmd("systemctl --user stop hyprland-session.target")
+end)
