@@ -72,7 +72,7 @@ hl.config({
 
         input = {
                 kb_layout               = "de",
-                kb_variant              = "qwertz",
+                -- kb_variant              = "qwertz",
                 numlock_by_default      = true,
                 sensitivity             = 0,
                 accel_profile           = "flat",
@@ -95,3 +95,9 @@ require("hyprland.keybindings")
 ----------------
 
 require("hyprland.workspaces")
+
+------------------
+-- WINDOW RULES --
+------------------
+
+require("hyprland.windows")

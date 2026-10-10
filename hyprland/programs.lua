@@ -1,4 +1,4 @@
-local terminal          = "alacritty"
-local fileManager       = "dolphin"
-local menu              = "wofi --show drun"
-local screenshot        = "make-screenshot.sh"
+terminal          = "alacritty"
+fileManager       = "dolphin"
+menu              = "wofi --show drun"
+screenshot        = "make-screenshot.sh"
